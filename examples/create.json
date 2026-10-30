@@ -1,0 +1,11 @@
+{
+  "sku": "LAB-2026-001",
+  "title": "Mechanical keyboard",
+  "description": "Compact keyboard for the laboratory demo",
+  "price": 24990.5,
+  "category_id": "cat-01",
+  "brand_id": "brand-01",
+  "attributes": {"layout": "US", "color": "black"},
+  "images": ["https://cdn.example.com/keyboard.jpg"],
+  "in_stock": 15
+}

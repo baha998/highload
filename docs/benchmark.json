@@ -1,0 +1,43 @@
+{
+  "time": "2026-10-30T18:31:43.8518406Z",
+  "go": "go1.25.4",
+  "os": "windows",
+  "arch": "amd64",
+  "logical_cpus": 12,
+  "duration_per_protocol": "10s",
+  "workers": 128,
+  "payloads": [
+    {
+      "products": 1,
+      "json_bytes": 362,
+      "protobuf_bytes": 214
+    },
+    {
+      "products": 20,
+      "json_bytes": 7294,
+      "protobuf_bytes": 4348
+    }
+  ],
+  "measurements": [
+    {
+      "protocol": "REST",
+      "requests": 30000,
+      "errors": 0,
+      "offered_rps": 3000,
+      "completed_rps": 3000.0602412096437,
+      "p50_ms": 0.294,
+      "p95_ms": 0.591134,
+      "p99_ms": 0.7092
+    },
+    {
+      "protocol": "gRPC",
+      "requests": 30000,
+      "errors": 0,
+      "offered_rps": 3000,
+      "completed_rps": 2999.9340314506485,
+      "p50_ms": 0.285067,
+      "p95_ms": 0.5642,
+      "p99_ms": 0.656467
+    }
+  ]
+}
